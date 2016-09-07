@@ -20,6 +20,9 @@
 		508465401D7FA4C10047F735 /* SubjectController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5084653F1D7FA4C10047F735 /* SubjectController.swift */; };
 		508465421D7FA5580047F735 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508465411D7FA5580047F735 /* Stack.swift */; };
 		508465491D7FAB130047F735 /* SudentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508465481D7FAB130047F735 /* SudentController.swift */; };
+		5084654B1D7FB03F0047F735 /* SubjectListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5084654A1D7FB03F0047F735 /* SubjectListTableViewController.swift */; };
+		5084654D1D7FB0540047F735 /* StudentDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5084654C1D7FB0540047F735 /* StudentDetailTableViewController.swift */; };
+		5084654F1D7FB0610047F735 /* PairTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5084654E1D7FB0610047F735 /* PairTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +41,9 @@
 		5084653F1D7FA4C10047F735 /* SubjectController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubjectController.swift; sourceTree = "<group>"; };
 		508465411D7FA5580047F735 /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		508465481D7FAB130047F735 /* SudentController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SudentController.swift; sourceTree = "<group>"; };
+		5084654A1D7FB03F0047F735 /* SubjectListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubjectListTableViewController.swift; sourceTree = "<group>"; };
+		5084654C1D7FB0540047F735 /* StudentDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentDetailTableViewController.swift; sourceTree = "<group>"; };
+		5084654E1D7FB0610047F735 /* PairTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PairTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +99,9 @@
 		508465441D7FA5AB0047F735 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				5084654A1D7FB03F0047F735 /* SubjectListTableViewController.swift */,
+				5084654C1D7FB0540047F735 /* StudentDetailTableViewController.swift */,
+				5084654E1D7FB0610047F735 /* PairTableViewController.swift */,
 				508465241D7F963F0047F735 /* ViewController.swift */,
 			);
 			name = "View Controllers";
@@ -202,12 +211,15 @@
 			files = (
 				5084653D1D7FA12F0047F735 /* Subject+CoreDataProperties.swift in Sources */,
 				508465421D7FA5580047F735 /* Stack.swift in Sources */,
+				5084654D1D7FB0540047F735 /* StudentDetailTableViewController.swift in Sources */,
+				5084654F1D7FB0610047F735 /* PairTableViewController.swift in Sources */,
 				508465251D7F963F0047F735 /* ViewController.swift in Sources */,
 				5084653E1D7FA12F0047F735 /* Subject.swift in Sources */,
 				508465491D7FAB130047F735 /* SudentController.swift in Sources */,
 				508465231D7F963F0047F735 /* AppDelegate.swift in Sources */,
 				5084653B1D7FA12F0047F735 /* Student+CoreDataProperties.swift in Sources */,
 				508465401D7FA4C10047F735 /* SubjectController.swift in Sources */,
+				5084654B1D7FB03F0047F735 /* SubjectListTableViewController.swift in Sources */,
 				5084653C1D7FA12F0047F735 /* Student.swift in Sources */,
 				508465361D7F9F110047F735 /* Model.xcdatamodeld in Sources */,
 			);

@@ -68,8 +68,8 @@
 		508465211D7F963F0047F735 /* PairRandomizer */ = {
 			isa = PBXGroup;
 			children = (
-				508465471D7FA6030047F735 /* Model Objects */,
 				508465461D7FA5E20047F735 /* Model Controllers */,
+				508465471D7FA6030047F735 /* Model Objects */,
 				508465451D7FA5CC0047F735 /* Core */,
 				508465441D7FA5AB0047F735 /* View Controllers */,
 				508465431D7FA58F0047F735 /* Storyboards */,

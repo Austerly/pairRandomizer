@@ -17,6 +17,9 @@
 		5084653C1D7FA12F0047F735 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508465381D7FA12F0047F735 /* Student.swift */; };
 		5084653D1D7FA12F0047F735 /* Subject+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508465391D7FA12F0047F735 /* Subject+CoreDataProperties.swift */; };
 		5084653E1D7FA12F0047F735 /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5084653A1D7FA12F0047F735 /* Subject.swift */; };
+		508465401D7FA4C10047F735 /* SubjectController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5084653F1D7FA4C10047F735 /* SubjectController.swift */; };
+		508465421D7FA5580047F735 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508465411D7FA5580047F735 /* Stack.swift */; };
+		508465491D7FAB130047F735 /* SudentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508465481D7FAB130047F735 /* SudentController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,9 @@
 		508465381D7FA12F0047F735 /* Student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 		508465391D7FA12F0047F735 /* Subject+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Subject+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		5084653A1D7FA12F0047F735 /* Subject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
+		5084653F1D7FA4C10047F735 /* SubjectController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubjectController.swift; sourceTree = "<group>"; };
+		508465411D7FA5580047F735 /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		508465481D7FAB130047F735 /* SudentController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SudentController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,19 +70,62 @@
 		508465211D7F963F0047F735 /* PairRandomizer */ = {
 			isa = PBXGroup;
 			children = (
+				508465461D7FA5E20047F735 /* Model Controllers */,
+				508465471D7FA6030047F735 /* Model Objects */,
+				508465451D7FA5CC0047F735 /* Core */,
+				508465441D7FA5AB0047F735 /* View Controllers */,
+				508465431D7FA58F0047F735 /* Storyboards */,
+				508465291D7F963F0047F735 /* Assets.xcassets */,
+				5084652E1D7F963F0047F735 /* Info.plist */,
+			);
+			path = PairRandomizer;
+			sourceTree = "<group>";
+		};
+		508465431D7FA58F0047F735 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				508465261D7F963F0047F735 /* Main.storyboard */,
+				5084652B1D7F963F0047F735 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		508465441D7FA5AB0047F735 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				508465241D7F963F0047F735 /* ViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		508465451D7FA5CC0047F735 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				508465411D7FA5580047F735 /* Stack.swift */,
+				508465221D7F963F0047F735 /* AppDelegate.swift */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		508465461D7FA5E20047F735 /* Model Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5084653F1D7FA4C10047F735 /* SubjectController.swift */,
+				508465481D7FAB130047F735 /* SudentController.swift */,
+			);
+			name = "Model Controllers";
+			sourceTree = "<group>";
+		};
+		508465471D7FA6030047F735 /* Model Objects */ = {
+			isa = PBXGroup;
+			children = (
 				508465371D7FA12F0047F735 /* Student+CoreDataProperties.swift */,
 				508465381D7FA12F0047F735 /* Student.swift */,
 				508465391D7FA12F0047F735 /* Subject+CoreDataProperties.swift */,
 				5084653A1D7FA12F0047F735 /* Subject.swift */,
 				508465341D7F9F110047F735 /* Model.xcdatamodeld */,
-				508465221D7F963F0047F735 /* AppDelegate.swift */,
-				508465241D7F963F0047F735 /* ViewController.swift */,
-				508465261D7F963F0047F735 /* Main.storyboard */,
-				508465291D7F963F0047F735 /* Assets.xcassets */,
-				5084652B1D7F963F0047F735 /* LaunchScreen.storyboard */,
-				5084652E1D7F963F0047F735 /* Info.plist */,
 			);
-			path = PairRandomizer;
+			name = "Model Objects";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -111,6 +160,7 @@
 				TargetAttributes = {
 					5084651E1D7F963F0047F735 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = NUG2GE3SWX;
 					};
 				};
 			};
@@ -151,10 +201,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				5084653D1D7FA12F0047F735 /* Subject+CoreDataProperties.swift in Sources */,
+				508465421D7FA5580047F735 /* Stack.swift in Sources */,
 				508465251D7F963F0047F735 /* ViewController.swift in Sources */,
 				5084653E1D7FA12F0047F735 /* Subject.swift in Sources */,
+				508465491D7FAB130047F735 /* SudentController.swift in Sources */,
 				508465231D7F963F0047F735 /* AppDelegate.swift in Sources */,
 				5084653B1D7FA12F0047F735 /* Student+CoreDataProperties.swift in Sources */,
+				508465401D7FA4C10047F735 /* SubjectController.swift in Sources */,
 				5084653C1D7FA12F0047F735 /* Student.swift in Sources */,
 				508465361D7F9F110047F735 /* Model.xcdatamodeld in Sources */,
 			);
@@ -271,10 +324,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = PairRandomizer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.austinhesterly.PairRandomizer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -282,10 +338,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = PairRandomizer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.austinhesterly.PairRandomizer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
